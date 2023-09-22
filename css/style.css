@@ -114,7 +114,84 @@ nav input {
 /* =============================
             nav end
    =============================== */
+#banner {
+    background: #fae3b6;
+    padding: 130px 0;
+}
+#banner p {
+    margin: 25px 0;
+    width: 531px;
+}
+#banner a {
+    padding: 25px 91px;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.banner-text {
+    width: 50%;
+}
+.banner-text h1 {
+    width: 539px;
+}
+.banner-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#banner .banner-img .bannerImg {
+    border-bottom-left-radius: 195px;
+    z-index: 1;
+    animation: blackandwhite 3s infinite alternate;
+}
+#banner .banner-img .bannerDot {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    animation: dotImg 6s infinite alternate;
+}
+@keyframes blackandwhite {
+    from {
+        filter: grayscale(0);
+    }
+    to {
+        filter: grayscale(1);
+    }
+}
+
+@keyframes dotImg {
+    from {
+        left: 30px;
+        bottom: 0;
+    }
+    to {
+        left: 31px;
+        bottom: 70%;
+    }
+}
+/* =============================
+            Banner start
+   =============================== */
 
 /* =============================
-            nav start
+            Banner End
+   =============================== */
+
+/* =============================
+            Banner start
+   =============================== */
+
+/* =============================
+            Banner End
+   =============================== */
+
+/* =============================
+            Banner start
+   =============================== */
+
+/* =============================
+            Banner End
    =============================== */

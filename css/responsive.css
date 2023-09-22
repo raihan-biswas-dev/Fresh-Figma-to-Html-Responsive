@@ -2,6 +2,7 @@
     .container {
         width: 100%;
         padding: 0 10px;
+        box-sizing: border-box;
     }
     .flex {
         flex-direction: column;
@@ -38,11 +39,45 @@
         margin-right: 10px;
         display: none;
     }
+
+    .button a {
+        font-size: 16px;
+    }
+    .font-24 {
+        font-size: 18px;
+    }
     nav input:checked ~ .button {
         display: block;
     }
 
     .button a {
         margin-left: 0px;
+    }
+
+    /* banner part */
+    #banner {
+        padding: 29px 0;
+        padding-bottom: 50px;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+    .banner-text h1 {
+        width: auto;
+        font-size: 24px;
+    }
+    #banner p {
+        width: auto;
+        font-size: 18px;
+        margin: 16px 0;
+    }
+    #banner a {
+        padding: 11px 28px;
+        font-size: 18px;
+    }
+
+    #banner .banner-img {
+        display: none;
     }
 }
