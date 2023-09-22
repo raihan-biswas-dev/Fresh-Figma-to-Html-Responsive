@@ -86,6 +86,10 @@ nav {
     column-gap: 60px;
 }
 
+nav input {
+    display: none;
+}
+
 .button {
     text-align: right;
     width: 25%;
