@@ -149,11 +149,11 @@ nav input {
 }
 #banner .banner-img .bannerDot {
     position: absolute;
-    left: 0px;
-    bottom: 0;
-    animation: dotImg 6s infinite alternate;
+    left: 60px;
+    top: -92px;
+    /* animation: dotImg 6s infinite alternate; */
 }
-@keyframes blackandwhite {
+/* @keyframes blackandwhite {
     from {
         filter: grayscale(0);
     }
@@ -171,13 +171,31 @@ nav input {
         left: 31px;
         bottom: 70%;
     }
+} */
+/* =============================
+            Collection start
+   =============================== */
+.collection {
+    margin: 180px 0;
+}
+.collection .title {
+    text-align: center;
+}
+.collection .flex {
+    justify-content: space-between;
+}
+
+.collection .item {
+    width: 33%;
+    height: 403px;
+    background: red;
+}
+.collection .item img {
+    width: 100%;
+    height: 100%;
 }
 /* =============================
-            Banner start
-   =============================== */
-
-/* =============================
-            Banner End
+            Collection End
    =============================== */
 
 /* =============================
