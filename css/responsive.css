@@ -80,4 +80,24 @@
     #banner .banner-img {
         display: none;
     }
+
+    /* Collection Part Start */
+    .collection {
+        margin: 49px 0;
+    }
+    .collection .title h1 {
+        font-size: 35px;
+    }
+    .collection .title p {
+        font-size: 16px;
+    }
+
+    .collection .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .collection .item .name {
+        bottom: 18px;
+    }
+    /* Collection Part End */
 }
