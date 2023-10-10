@@ -28,6 +28,10 @@ a {
     font-family: "Frank Ruhl Libre", serif;
 }
 
+.pod {
+    font-family: "Podkova", serif;
+}
+
 .font-22 {
     font-size: 22px;
 }
@@ -44,7 +48,7 @@ a {
 .font-regular {
     font-weight: 400;
 }
-.semibold {
+.font-medium {
     font-weight: 500;
 }
 .font-bold {
@@ -56,6 +60,9 @@ a {
 
 .black {
     color: black;
+}
+.color-gray {
+    color: gray;
 }
 /* =================================
             common css end
@@ -226,7 +233,7 @@ nav input {
             Fashion Part start
    =============================== */
 .fashion {
-    margin: 120px 0;
+    margin: 188px 0 188px;
 }
 .fashion .flex {
     /* justify-content: space-between; */
@@ -245,6 +252,7 @@ nav input {
 }
 .fashion .item-two {
     width: 40%;
+    position: relative;
 }
 .fashion .item-two h2 {
     margin-top: 71px;
@@ -253,15 +261,94 @@ nav input {
     margin-top: 63px;
     margin-bottom: 132px;
 }
+.fashion .item-two .info p {
+    margin: 0;
+}
+.fashion .item-two .info {
+    width: 793px;
+    background: #fae3b6;
+    box-sizing: border-box;
+    padding: 40px 0px 40px 59px;
+    position: absolute;
+    bottom: -149px;
+    left: -245px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.fashion .item-two .info .flex {
+    column-gap: 0;
+    justify-content: space-between;
+}
 
+.fashion .item-two .info .item {
+    width: 30%;
+    border-right: 1px solid #000;
+}
+.fashion .item-two .info .item:last-child {
+    border-right: 0;
+}
 /* =============================
             Fashion Part End
    =============================== */
 
 /* =============================
-            Banner start
+            Best Seller start
    =============================== */
 
+.best-seller {
+    background: #cfa485;
+    padding: 36px 0 191px;
+}
+.best-seller .item-one h2,
+.best-seller .item-one p {
+    color: #fff;
+}
+.best-seller .item-one {
+    width: 36%;
+}
+.best-seller .item-two {
+    width: 64%;
+}
+.best-seller .item-one a {
+    padding: 28px 86px;
+    background: #000;
+    margin-top: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.product-card .flex .item {
+    background: #fff;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    color: #000;
+}
+
+.product-card .flex:first-child {
+    justify-content: space-between;
+}
+
+.product-card .product-inner {
+    padding: 15px;
+}
+.product-card .star {
+    display: flex;
+}
+.product-card .flex i {
+    margin-right: 7px;
+    color: #ffaf37;
+}
+.product-card .flex .item img {
+    display: inline-block;
+    width: 100%;
+}
+.product-card .flex .item .product-text {
+    padding: 10px;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
 /* =============================
-            Banner End
+            Best Seller End
    =============================== */
